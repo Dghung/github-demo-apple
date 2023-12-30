@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.header{
+    font-size: 12px;
+    height: 44px;
+	display: flex;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+	align-items: center;
+	justify-content: center;
+    background-color: rgba(250, 250, 252, .8);
+}
+.header ul{
+    height: 44px;
+    font-size: 12px;
+}
+.header li{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.header li a{
+    color: #333336;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 22px 0 22px;
+    font-family: Arial, Helvetica, sans-serif;  
+    box-sizing: border-box  ;
+    margin: auto;
+}
+#header_ul1{
+    /* padding-top: 15px; */
+    line-height: 44px;
+}
+.header li a:hover{
+    color: black;
+
+}
+.header1{
+    font-size: 14px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #1d1d1f;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgb(245, 245, 247);
+}
+.header1 a{
+    text-decoration: none;
+    color: #0066CC;
+    box-sizing: border-box;
+}
+.header1 .header1__1:hover{
+    text-decoration: underline;
+}
+.header1 .svg-icon {
+    width: 1em;
+    height: 1em;
+    margin-bottom: -2px;
+    margin-left: -4px;
+    padding-top: 2px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #0066CC;
+  }
+  
+  .svg-icon circle {
+    stroke: #0066CC;
+    stroke-width: 1;
+  }
+.pic1{
+    
+    z-index: 1;
+    position: relative;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    left: calc(50% + 0px);
+    right: auto;
+    top: auto;
+    transform: translatex(-50%);
+    height: 692px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 3008px 736px;
+    background-image: url(https://www.apple.com/v/home/bh/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+}
+.pic1 .pic1__1{
+    /* margin-top: 60px; */
+    padding-top: 55px;
+    letter-spacing: -0.05em;
+    color: white;
+    display: flex;
+	justify-content: center;
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+    
+}
+.pic1 .pic1__2{
+    color: white;
+    font-size: 24px;
+    display: flex;
+	justify-content: center;
+    margin-top: 2px;
+    font-family: 'Inter', sans-serif;
+}
+
+.pic1__3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pic1__3 .one, .two{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    color: #2997ff;
+}
+.two{
+    margin-left: 30px;
+}
+.pic1 .one:hover, .two:hover{
+    text-decoration: underline;
+    
+}
+.element1{
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    padding: 0;
+    left: calc(50% + 0px);
+    right: auto;
+    top: auto;
+    transform: translatex(-50%);
+    height: 692px;
+    width: 100%;
+    background-size: 3008px 736px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(https://www.apple.com/v/home/bh/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+}
+.element1__1 h1{
+    padding-top: 65px;
+    color: #1d1d1f;
+    display: flex;
+	justify-content: center;
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+}
+.element1__1 h3{
+    color: #1d1d1f;
+    display: flex;
+	justify-content: center;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+}
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    margin-top: 2px;
+    margin-left: -2px;
+    padding-top: 4px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #2997ff;
+  }
+  
+  .svg-icon circle {
+    stroke: #2997ff;
+    stroke-width: 1;
+  }
+.element1 .one:hover, .two:hover{
+    text-decoration: underline;
+    
+}
+.element2{
+    margin-top: 10px;
+    height: 747px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/bh/images/heroes/apple-watch-series-9-anim/hero_apple_watch_series_9__x5wo4ptz2giu_large.jpg);
+    
+}
+.element3{
+    height: 500px;
+}
